@@ -6,7 +6,7 @@ const path = require('path');
 const session = require('express-session');
 
 const app = express();
-const PORT = 80;
+const PORT = ;
 
 // Connexion à MongoDB
 mongoose.connect(process.env.mongoConnection, {
